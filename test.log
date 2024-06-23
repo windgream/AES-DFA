@@ -1,0 +1,178 @@
+ENCRYPT
+RoundKey0    00012001710198aeda79171460153594
+RoundKey1    589702d129969a7ff3ef8d6b93fab8ff
+RoundKey2    77fb140d5e6d8e72ad8203193e78bbe6
+RoundKey3    cf119abf917c14cd3cfe17d40286ac32
+RoundKey4    8380b9c812fcad052e02bad12c8416e3
+RoundKey5    ccc7a8b9de3b05bcf039bf6ddcbda98e
+RoundKey6    9614b13f482fb483b8160bee64aba260
+RoundKey7    b42e617cfc01d5ff4417de1120bc7c71
+RoundKey8    513ec2cbad3f1734e928c925c994b554
+RoundKey9    68ebe216c5d4f5222cfc3c07e5688953
+RoundKey10   1b4c0fcfde98faedf264c6ea170c4fb9
+
+Round start:
+state        0001000101a198afda78173486153566
+RoundKey 0   00012001710198aeda79171460153594
+AddRoundKey  0000200070a0000100010020e60000f2
+
+Round 1:
+SubBytes     6363b76351e0637c637c63b78e636389
+ShiftRow     63e06389517c63636363b77c8e6363b7
+MixCloumn    1794c52f266f4e2aa81bf189765ae9fc
+RoundKey 1   589702d129969a7ff3ef8d6b93fab8ff
+AddRoundKey  4f03c7fe0ff9d4555bf47ce2e5a05103
+
+Round 2:
+SubBytes     847bc6bb769948fc39bf1098d9e0d17b
+ShiftRow     8499107b76bfd1bb39e0c6fcd97b4898
+MixCloumn    c8e6b0e85cc0a699734f518ef46f8168
+RoundKey 2   77fb140d5e6d8e72ad8203193e78bbe6
+AddRoundKey  bf1da4e502ad28ebdecd5297ca173a8e
+
+Round 3:
+SubBytes     08a449d9779534e91dbd008874f08019
+ShiftRow     0895001977bd80d91df049e974a43488
+MixCloumn    ad20b6bf6b54a10d91d45f57a3f33b07
+RoundKey 3   cf119abf917c14cd3cfe17d40286ac32
+AddRoundKey  62312c00fa28b5c0ad2a4883a1759735
+
+Round 4:
+SubBytes     aac771632d34d5ba95e552ec329d8896
+ShiftRow     aa3452962de58863959d71ba32c7d5ec
+MixCloumn    d7a29bb4851c66dc469d3f270f2f6b87
+RoundKey 4   8380b9c812fcad052e02bad12c8416e3
+AddRoundKey  5422227c97e0cbd9689f85f623ab7d64
+
+Round 5:
+SubBytes     2093931088e11f3545db97422662ff43
+ShiftRow     20e1974388dbff104562933526931f42
+MixCloumn    ac183190922f86878a1a4554bf784d62
+RoundKey 5   ccc7a8b9de3b05bcf039bf6ddcbda98e
+AddRoundKey  60df99294c14833b7a23fa3963c5e4ec
+
+Round 6:
+SubBytes     d09eeea529faece2da262d12fba669ce
+ShiftRow     d0fa2dce292669a5daa6eee2fb9eec12
+MixCloumn    4d86393bf47b2965524686e2aae19040
+RoundKey 6   9614b13f482fb483b8160bee64aba260
+AddRoundKey  db928804bc549de6ea508d0cce4a3220
+
+Round 7:
+SubBytes     b94fc4f265205e8e87535dfe8bd623b7
+ShiftRow     b9205db7655323f287d6c48e8b4f5efe
+MixCloumn    e3a9e1d8ee547d203ee94b877c096170
+RoundKey 7   b42e617cfc01d5ff4417de1120bc7c71
+AddRoundKey  578780a41255a8df7afe95965cb51d01
+
+Round 8:
+SubBytes     5b17cd49c9fcc29edabb2a904ad5a47c
+ShiftRow     5bfc2a7cc9bba449dad5cd9e4a17c290
+MixCloumn    ffba77c3b21afacd98b9374affa96930
+RoundKey 8   513ec2cbad3f1734e928c925c994b554
+AddRoundKey  ae84b5081f25edf97191fe6f363ddc64
+
+Round 9:
+SubBytes     e45fd530c03f5599a381bba805278643
+ShiftRow     e43fbb43c0818630a327d599055f55a8
+MixCloumn    6a0f7335b578063c7810852516ec134e
+RoundKey 9   68ebe216c5d4f5222cfc3c07e5688953
+AddRoundKey  02e4912370acf31e54ecb922f3849a1d
+
+Round 10:
+SubBytes     7769812651910d7220ce56930d5fb8a4
+ShiftRow     779156a451ceb826205f81720d690d93
+RoundKey 10  1b4c0fcfde98faedf264c6ea170c4fb9
+AddRoundKey  6cdd596b8f5642cbd23b47981a65422a
+
+
+
+ENCRYPT
+RoundKey0    1b4c0fcfde98faedf264c6ea170c4fb9
+RoundKey1    89c2edd18bcf2cae2554f86296845411
+RoundKey2    8e5fd166020dc17fae9bd4ccb3d0ac73
+RoundKey3    3130f1778c521019ac9615b31d4b78bf
+RoundKey4    798546b6bd62e16e20c405aab1dd6d0c
+RoundKey5    9b30cb7ac4e7a7d89da6e4c4911968a6
+RoundKey6    a2067caa5fd76ca25941431c0cbf8c62
+RoundKey7    45f0fdb3fdd1100806962fbe55fecf7e
+RoundKey8    b29ae05db821edbbfb473fb65368e0c0
+RoundKey9    525930270abb0de64366d20da82fdf76
+RoundKey10   00012001710198aeda79171460153594
+
+Round start:
+state        6cdd596b8f5642cbd23b47981a65422a
+RoundKey 0   1b4c0fcfde98faedf264c6ea170c4fb9
+AddRoundKey  779156a451ceb826205f81720d690d93
+
+Round 1:
+SubBytes     f581b149d18b6cf7b7cf0c40d7f9d7dc
+ShiftRow     f58b0cdcd1cfd749b7f9b1f7d7816c40
+MixCloumn    a73019206d7f70e22361357f013a4e0f
+RoundKey 1   89c2edd18bcf2cae2554f86296845411
+AddRoundKey  2ef2f4f1e6b05c4c0635cd1d97be1a1e
+
+Round 2:
+SubBytes     3189bfa18ee74a296f96bda488aea272
+ShiftRow     31e7bd728e96a2a16faebf2988894aa4
+MixCloumn    9f4a21eda5e5bfe4a1dbdff265fb6213
+RoundKey 2   8e5fd166020dc17fae9bd4ccb3d0ac73
+AddRoundKey  1115f08ba7e87e9b0f400b3ed62bce60
+
+Round 3:
+SubBytes     82598c3d5c9bf31476092bb2f6f18bd0
+ShiftRow     829b2bd05c098b3d76f18c14f659f3b2
+MixCloumn    5202249615f51f1c7c14b8cf5df89fd4
+RoundKey 3   3130f1778c521019ac9615b31d4b78bf
+AddRoundKey  6332d5e199a70f05d082ad7c40b3e76b
+
+Round 4:
+SubBytes     fb2303f8ee5c766b70139510096d947f
+ShiftRow     fb5c957fee1394f8706d036b09237610
+MixCloumn    e39817219e97dd453fc4a62811c5f66e
+RoundKey 4   798546b6bd62e16e20c405aab1dd6d0c
+AddRoundKey  9a1d519723f53c2b1f00a382a0189b62
+
+Round 5:
+SubBytes     b8a4d18826e6ebf1c0630a13e0ad14aa
+ShiftRow     b8e60aaa26631488c0add1f1e0a4eb13
+MixCloumn    fadbaf707554ee165718dcded486bc52
+RoundKey 5   9b30cb7ac4e7a7d89da6e4c4911968a6
+AddRoundKey  61eb640ab1b349cecabe381a459fd4f4
+
+Round 6:
+SubBytes     efe94367c86d3b8b74ae07a26edb48bf
+ShiftRow     ef6d07bfc8ae486774db438b6ee93ba2
+MixCloumn    ca8356254d305f6b5697af0965480c3f
+RoundKey 6   a2067caa5fd76ca25941431c0cbf8c62
+AddRoundKey  68852a8f12e733c90fd6ec1569f7805d
+
+Round 7:
+SubBytes     4597e573c994c3dd76f6ce59f968cd4c
+ShiftRow     4594ce4cc9f6cd737668e5ddf997c359
+MixCloumn    af73820d36012b9d6c4fb3b6d1cb18f6
+RoundKey 7   45f0fdb3fdd1100806962fbe55fecf7e
+AddRoundKey  ea837fbecbd03b956ad99c088435d788
+
+Round 8:
+SubBytes     87ecd2ae1f70e22a0235de305f960ec4
+ShiftRow     8770dec41f350eae0296d22a5fece230
+MixCloumn    9fda07afc1c9df5d5d72551643913c8f
+RoundKey 8   b29ae05db821edbbfb473fb65368e0c0
+AddRoundKey  2d40e7f279e832e6a6356aa010f9dc4f
+
+Round 9:
+SubBytes     d8099489b69b238e249602e0ca998684
+ShiftRow     d89b0284b69686892499948eca0923e0
+MixCloumn    9b77d0f9d999b7d8e2240766575dbeb4
+RoundKey 9   525930270abb0de64366d20da82fdf76
+AddRoundKey  c92ee0ded322ba3ea142d56bff7261c2
+
+Round 10:
+SubBytes     dd31e11d6693f4b2322c037f1640ef25
+ShiftRow     dd930325662cef1d3240e1b21631f47f
+RoundKey 10  00012001710198aeda79171460153594
+AddRoundKey  dd922324172d77b3e839f6a67624c1eb
+
+
+
