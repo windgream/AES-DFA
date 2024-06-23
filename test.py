@@ -47,7 +47,7 @@ if __name__ == "__main__":
     key = bytes.fromhex("00012001710198aeda79171460153594")
     plain = bytearray.fromhex("0001000101a198afda78173486153566")
 
-    with open("test/test.log", "w") as file:
+    with open("test.log", "w") as file:
         # 加密
         Roundkey = KeyExpansion(key)
         cipher = encrypt(plain, Roundkey, file)
