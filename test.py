@@ -1,10 +1,5 @@
-from typing import IO
-import sys
-import os
-
-# 将 AES.py 所在目录添加到 sys.path 中
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
 from AES import AddRoundKey, KeyExpansion, MixCloumn, ShiftRow, SubBytes
+from typing import IO
 
 
 def encrypt(
