@@ -54,6 +54,6 @@ if __name__ == "__main__":
 
         # 解密
         invRoundkey = KeyExpansion(key, encrypt=False)
-        plain = encrypt(cipher, invRoundkey, file)
+        plain = encrypt(cipher, invRoundkey, file, encrypt=False)
 
     print("AES-128 算法测试通过")
