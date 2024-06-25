@@ -199,13 +199,6 @@ def ReverseRoundKey(RoundKey10: bytearray, Nr: int = 10) -> bytearray:
 
     return K
 
-
-
-
-
-
-
-
 if __name__ == "__main__":
     cnt_tumples = []
     with open("analysis.log", "w", encoding="utf-8") as analysis_file:
