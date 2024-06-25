@@ -55,7 +55,7 @@ def crack_file(file: str) -> bytearray:
     return RoundKey
 
 
-def check(cipher: bytes, ref: bytes, encrypt: bool = True) -> int:  # type: ignore
+def check(cipher: bytes, ref: bytes, encrypt: bool = True) -> int | None:
     "根据差分寻找注入错误的位置"
     # cipher: 注入故障的密文,ref: 正确的密文,返回值: 故障注入的列数
     diff = xor(cipher, ref)
@@ -103,7 +103,7 @@ def get_cands(Diff: list, tmult: list, encrypt: bool = True) -> list:
     return cands
 
 
-def absorb(i: int, cipher: bytes, ref: bytes, candidates: list, encrypt: bool = True):
+def absorb(i: int, cipher: bytes, ref: bytes, candidates: list, encrypt: bool = True)-> None:
     "吸收一组差分"
 
     # Diff 中存储了 4 个字节的差分 cipher ^ ref
@@ -198,6 +198,12 @@ def ReverseRoundKey(RoundKey10: bytearray, Nr: int = 10) -> bytearray:
             K[(i - Nk) * 4 + j] = K[i * 4 + j] ^ t[j]
 
     return K
+
+
+
+
+
+
 
 
 if __name__ == "__main__":
